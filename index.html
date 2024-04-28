@@ -1,606 +1,717 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title></title>
-    <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="description">
-    <meta content="" name="keywords">
-    <meta content="" name="author">
+    <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16" />
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <meta content="" name="author" />
     <!-- CSS Files
     ================================================== -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
-    <link href="css/plugins.css" rel="stylesheet" type="text/css">
-    <link href="css/swiper.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/coloring.css" rel="stylesheet" type="text/css">
+    <link
+      href="css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+      id="bootstrap"
+    />
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="css/swiper.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" />
     <!-- color scheme -->
-    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+    <link
+      id="colors"
+      href="css/colors/scheme-01.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div id="wrapper">
-        <div class="float-text show-on-scroll">
-            <span><a href="#">Scroll to top</a></span>
-        </div>
-        <div class="scrollbar-v show-on-scroll"></div>
+      <div class="float-text show-on-scroll">
+        <span><a href="#">Scroll to top</a></span>
+      </div>
+      <div class="scrollbar-v show-on-scroll"></div>
 
-        <!-- page preloader begin -->
-        <div id="de-loader"></div>
-        <!-- page preloader close -->
+      <!-- page preloader begin -->
+      <div id="de-loader"></div>
+      <!-- page preloader close -->
 
-        <!-- header begin -->
-        <header class="transparent scroll-light has-topbar">
-            <div id="topbar">
-                <div class="container">
-                    <div class="topbar-left xs-hide">
-                        <div class="social-icons">
-                            <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
-                            <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
-                            <a href="#"><i class="fa-brands fa-youtube fa-lg"></i></a>
-                            <a href="#"><i class="fa-brands fa-pinterest fa-lg"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="topbar-right">
-                        <div class="topbar-widget"><a href="#"><i class="fa fa-phone"></i>+966 583764696</a></div>
-                        <div class="topbar-widget"><a href="#"><i class="fa fa-envelope"></i>tripplearrows.com</a>
-                        </div>
-
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
+      <!-- header begin -->
+      <header class="transparent scroll-light has-topbar">
+        <div id="topbar">
+          <div class="container">
+            <div class="topbar-left xs-hide">
+              <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+              </div>
             </div>
 
-            <div class="container">
-                <div class="main-header">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="de-flex sm-pt10">
-                                <div class="de-flex-col">
-                                    <!-- logo begin -->
-                                    <div id="logo">
-                                        <a href="index.html">
-                                            <img class="logo-main" src="images/Logo-03 1.png" alt="">
-                                            <img class="logo-scroll" src="images/Logo-03 1.png" alt="">
-                                            <img class="logo-mobile" src="images/Logo-03 1.png" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- logo close -->
-                                </div>
-                                <div class="de-flex-col header-col-mid">
-                                    <ul id="mainmenu">
-                                        <li><a class="menu-item" href="index.html">Home</a></li>
-                                        <li><a class="menu-item" href="about.html">About Us</a></li>
-                                        <li><a class="menu-item" href="services.html">Our Services</a></li>
-                                        <li><a class="menu-item" href="contact.html">Contact</a></li>
-                                    </ul>
-                                </div>
-
-                                <div class="de-flex-col lg-hide">
-                                    <div class="menu_side_area">          
-                                        <!-- <a href="contact.html" class="btn-main bg-color-2">Schedule Now</a> -->
-                                        <span id="menu-btn"></span>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="topbar-right">
+              <div class="topbar-widget">
+                <a href="#"><i class="fa fa-phone"></i>+966 583764696</a>
+              </div>
+              <div class="topbar-widget">
+                <a href="#"><i class="fa fa-envelope"></i>tripplearrows.com</a>
+              </div>
             </div>
-        </header>
-        <!-- header close -->
-        <!-- content begin -->
-        <div class="no-bottom no-top" id="content">
-
-            <div id="top"></div>
-
-            <section class="section-dark text-light no-top no-bottom position-relative overflow-hidden z-1000">
-                <div class="v-center">
-                    <div class="swiper">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                            <!-- Slides -->
-                            <div class="swiper-slide">
-                                <div class="swiper-inner" data-bgimage="url(images/slider/1.jpg)">
-                                    <div class="sw-caption">
-
-                                        <div class="container-fluid">
-                                            <div class="row gx-5 align-items-center">
-
-                                                <div class="spacer-double"></div>
-
-                                                <div class="col-lg-6 offset-lg-2 text-left">
-                                                    <div class="spacer-single"></div>
-                                                    <div class="sw-text-wrapper">
-
-                                                        <h2 class="slider-title mb-3">Triple Arrows: Your Trusted
-                                                            Partner for Building materials, Tools, and PPE</h2>
-                                                        <h3 class="slider-teaser mb-3">Welcome to Triple Arrows, your
-                                                            premier supplier of construction materials, tools, PPE, and
-                                                            safety materials. We specialize in wholesale and general
-                                                            trading divisions, offering a wide range of products to meet
-                                                            all your construction needs.</h3>
-                                                        <div class="spacer-10"></div>
-                                                        
-                                                    </div>
-                                                </div>
-
-                                                <div class="spacer-single"></div>
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-                                    <!-- <div class="sw-overlay"></div> -->
-                                </div>
-                            </div>
-                            <!-- Slides -->
-
-                            <!-- Slides -->
-                            <div class="swiper-slide">
-                                <div class="swiper-inner" data-bgimage="url(images/slider/2.webp)">
-                                    <div class="sw-caption">
-
-
-                                        <div class="container-fluid">
-                                            <div class="row gx-5 align-items-center">
-
-                                                <div class="spacer-double"></div>
-
-                                                <div class="col-lg-6 offset-lg-2 text-left">
-                                                    <div class="spacer-single"></div>
-                                                    <div class="sw-text-wrapper">
-
-                                                        <h2 class="slider-title mb-3">Triple Arrows: Your Trusted
-                                                            Partner for Building materials, Tools, and PPE</h2>
-                                                        <h3 class="slider-teaser mb-3">Welcome to Triple Arrows, your
-                                                            premier supplier of construction materials, tools, PPE, and
-                                                            safety materials. We specialize in wholesale and general
-                                                            trading divisions, offering a wide range of products to meet
-                                                            all your construction needs.</h3>
-                                                        <div class="spacer-10"></div>
-                                                      
-                                                    </div>
-                                                </div>
-
-                                                <div class="spacer-single"></div>
-                                            </div>
-                                        </div>
-
-
-
-
-                                    </div>
-                                    <!-- <div class="sw-overlay s2"></div> -->
-                                </div>
-                            </div>
-                            <!-- Slides -->
-
-
-                        </div>
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
-
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-
-                        <!-- If we need scrollbar -->
-                        <div class="swiper-scrollbar"></div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="pt50">
-                <div class="container">
-
-                    <div class="spacer-double"></div>
-                    <div class="spacer-double"></div>
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <img src="images/about-bg.png" class="img-fluid wow scaleIn" alt="">
-                        </div>
-                        <div class="col-lg-6">
-                            <h2 class="wow fadeInUp">Building a Strong Foundation: The Core of Every Construction
-                                Project</h2>
-                            <p class="wow fadeInUp">In the dynamic world of construction, a strong foundation isn't
-                                merely a structural requirement; it's the very bedrock upon which dreams are built.
-                                Triple Arrows understands the pivotal role that dependable materials, efficient tools,
-                                and safety equipment play in each project. Whether you are an experienced contractor
-                                shaping cityscapes or an enthusiastic DIYer crafting your personal sanctuary, our
-                                comprehensive solutions are tailored to meet your specific needs</p>
-                            <div class="spacer-10"></div>
-                            <a class="btn-main wow fadeInUp" href="about.html">View more</a>
-                        </div>
-                    </div>
-
-                    <div class="spacer-double"></div>
-                    <div class="spacer-double"></div>
-
-
-                </div>
-            </section>
-
-            <section class="  bg-color text-light">
-
-                <div class="spacer-double"></div>
-
-                <div class="container">
-                    <div class="row g-4">
-                        <div class="row">
-                            <div class="col-lg-12 text-left">
-                                <h2 class="wow fadeInUp" data-wow-delay=".2s">Our Expertise</h2>
-                                <hr class="hr s2">
-                            </div>
-                        </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".0s">
-                            <div class=" overflow-hidden ">
-                                <div class="d-flex text-wrap flex-column justify-content-between">
-                                    <div class=" bg-color-2 text-light">
-                                        <h4>Explore a Vast Selection of Building Materials </h4>
-                                        <div class="spacer-30"></div>
-                                        <p class="no-bottom">In the construction industry, having the right tools and
-                                            equipment is crucial to ensuring safety and efficiency on job sites. Triple
-                                            Arrows is committed to providing a wide range of construction tools and
-                                            safety
-                                            equipment to fulfill all your project requirements.</p>
-                                        <div class="spacer-30"></div>
-                                    </div>
-
-                                    <div class="relative">
-                                        <img src="images/misc/services-2.webp" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".2s">
-                            <div class=" overflow-hidden">
-                                <div class="d-flex text-wrap flex-column justify-content-between">
-                                    <div class=" bg-color-2 text-light">
-                                        <h4>Personal Protective Equipment (PPE)</h4>
-                                        <div class="spacer-30"></div>
-                                        <p class="no-bottom">Safety remains our top priority. Triple Arrows offers
-                                            high-quality PPE, including hard hats, gloves, safety glasses, and
-                                            respiratory
-                                            protection. We understand the critical nature of protecting your workforce,
-                                            and
-                                            our products adhere to industry standards.</p>
-                                        <div class="spacer-30"></div>
-                                    </div>
-
-                                    <div class="relative">
-                                        <img src="images/misc/services-2.webp" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".4s">
-                            <div class=" overflow-hidden">
-                                <div class="d-flex text-wrap flex-column justify-content-between">
-                                    <div class=" bg-color-2 text-light">
-                                        <h4>Construction Tools and Equipment</h4>
-                                        <div class="spacer-30"></div>
-                                        <p class="no-bottom">From power tools to heavy machinery, we provide
-                                            top-of-the-line
-                                            construction equipment. Whether you're a contractor, builder, or DIY
-                                            enthusiast,
-                                            our tools are designed to improve efficiency and productivity
-                                            on the job site.
-                                        </p>
-                                        <div class="spacer-30"></div>
-                                    </div>
-                                    <div class="spacer-30"></div>
-                                    <div class="relative">
-                                        <img src="images/misc/services-2.webp" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".6s">
-                            <div class=" overflow-hidden">
-                                <div class="d-flex text-wrap flex-column justify-content-between">
-                                    <div class=" bg-color-2 text-light">
-                                        <h4>Wholesale and General Trading Divisions</h4>
-                                        <div class="spacer-30"></div>
-                                        <p class="no-bottom">
-                                            For all your building material needs, from major projects to home
-                                            improvements,
-                                            our wholesale and general trading divisions have you covered. Competitive
-                                            pricing and flexible delivery options ensure a convenient
-                                            shopping experience.
-                                        </p>
-                                        <div class="spacer-30"></div>
-                                    </div>
-                                    <div class="spacer-30"></div>
-
-                                    <div class="relative">
-                                        <img src="images/misc/services-2.webp" class="img-fluid" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-
-
-
-                    </div>
-                </div>
-                <div class="spacer-double"></div>
-
-            </section>
-
-
-
-
-
-
-
-            <section class="" style="background-image: url(images/ser.jpg);background-size: cover;">
-                <div class="container">
-                    <div class="row g-4">
-                        <div class="row">
-                            <div class="col-lg-12 text-left">
-                                <h2>industries served</h2>
-                    
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay="0s">
-                            <div class="img-with-cap">
-                                <h4 class="d-title">Manufacturing</h4>
-                                <div class="d-overlay"></div>
-                                <img src="images/s1.png" class="img-fullwidth rounded-1" alt="">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".1s">
-                            <div class="img-with-cap">
-                                <h4 class="d-title">Construction</h4>
-                                <div class="d-overlay"></div>
-                                <img src="images/s1.png" class="img-fullwidth rounded-1" alt="">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".2s">
-                            <div class="img-with-cap">
-                                <h4 class="d-title">Automotive Industry</h4>
-                                <div class="d-overlay"></div>
-                                <img src="images/s1.png" class="img-fullwidth rounded-1" alt="">
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".3s">
-                            <div class="img-with-cap">
-                                <h4 class="d-title">Oil & Gas</h4>
-                                <div class="d-overlay"></div>
-                                <img src="images/s1.png" class="img-fullwidth rounded-1" alt="">
-                            </div>
-
-                        </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".4s">
-                            <div class="img-with-cap">
-                                <h4 class="d-title">Ware Housing</h4>
-                                <div class="d-overlay"></div>
-                                <img src="images/s1.png" class="img-fullwidth rounded-1" alt="">
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".5s">
-                            <div class="img-with-cap">
-                                <h4 class="d-title">Petro Chemicals</h4>
-                                <div class="d-overlay"></div>
-                                <img src="images/s1.png" class="img-fullwidth rounded-1" alt="">
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".6s">
-                            <div class="img-with-cap">
-                                <h4 class="d-title">Transport & Logistics</h4>
-                                <div class="d-overlay"></div>
-                                <img src="images/s1.png" class="img-fullwidth rounded-1" alt="">
-                            </div>
-
-                        </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".7s">
-                            <div class="img-with-cap">
-                                <h4 class="d-title">Hospitality</h4>
-                                <div class="d-overlay"></div>
-                                <img src="images/s1.png" class="img-fullwidth rounded-1" alt="">
-                            </div>
-
-                        </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".8s">
-                            <div class="img-with-cap">
-                                <h4 class="d-title">Aviation</h4>
-                                <div class="d-overlay"></div>
-                                <img src="images/s1.png" class="img-fullwidth rounded-1" alt="">
-                            </div>
-
-                        </div>
-
-
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".9s">
-                            <div class="img-with-cap">
-                                <h4 class="d-title">Field Service</h4>
-                                <div class="d-overlay"></div>
-                                <img src="images/s1.png" class="img-fullwidth rounded-1" alt="">
-                            </div>
-
-                        </div>
-
-
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".9s">
-                            <div class="img-with-cap">
-                                <h4 class="d-title"> Mining</h4>
-                                <div class="d-overlay"></div>
-                                <img src="images/s1.png" class="img-fullwidth rounded-1" alt="">
-                            </div>
-
-                        </div>
-
-
-                        <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".9s">
-                            <div class="img-with-cap">
-                                <h4 class="d-title"> Corporate & Executive</h4>
-                                <div class="d-overlay"></div>
-                                <img src="images/s1.png" class="img-fullwidth rounded-1" alt="">
-                            </div>
-
-                        </div>
-
-
-
-
-
-                    </div>
-                </div>
-            </section>
-
-
-
-
-
-
-            <section class="no-bottom no-top">
-                <div class="">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="padding60  sm-padding40 overflow-hidden position-relative jarallax text-light">
-                                <img src="images/Rectangle 33.jpg" class="jarallax-img" alt="">
-                                <div class="container">
-                                    <div class="row align-items-center g-4 gx-5 relative z-index-1000">
-
-                                        <div class="col-lg-8">
-                                            <div class="spacer-40"></div>
-                                            <h2 class="mb20 wow fadeInUp" data-wow-delay=".2s">Together Towards
-                                                Excellence: Your
-                                                Trusted Construction Partner</h2>
-                                            <a class="btn-main" href="contact.html">Enquire now</a>
-                                            <div class="spacer-40"></div>
-                                        </div>
-                                        <div class="col-lg-4 text-center">
-                                            <img src="images/Logo-04 1.png" class="img-fluid rounded-10px wow scaleIn"
-                                                alt="">
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-
-
-
+            <div class="clearfix"></div>
+          </div>
         </div>
-        <!-- content close -->
 
-    <!-- ` begin -->
-    <footer class="bg-color text-light">
         <div class="container">
-            <div class="row gx-5">
-                <div class="col-lg-8 col-sm-6">
+          <div class="main-header">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="de-flex sm-pt10">
+                  <div class="de-flex-col">
+                    <!-- logo begin -->
+                    <div id="logo">
+                      <a href="index.html">
+                        <img
+                          class="logo-main"
+                          src="images/Logo-03 1.png"
+                          alt=""
+                        />
+                        <img
+                          class="logo-scroll"
+                          src="images/Logo-03 1.png"
+                          alt=""
+                        />
+                        <img
+                          class="logo-mobile"
+                          src="images/Logo-03 1.png"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <!-- logo close -->
+                  </div>
+                  <div class="de-flex-col header-col-mid">
+                    <ul id="mainmenu">
+                      <li><a class="menu-item" href="index.html">Home</a></li>
+                      <li>
+                        <a class="menu-item" href="about.html">About Us</a>
+                      </li>
+                      <li>
+                        <a class="menu-item" href="services.html"
+                          >Our Services</a
+                        >
+                      </li>
+                      <li>
+                        <a class="menu-item" href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
 
-                    <h5 class="id-color-1">Our Expertise</h5>
-                    <div class="spacer-20"></div>
-                    <p>Explore a Vast Selection of Building Materials </p>
-                    <p>Personal Protective Equipment (PPE)</p>
-                    <p>Construction Tools and Equipment </p>
-                    <p>Wholesale and General Trading Divisions</p>
-
+                  <div class="de-flex-col lg-hide">
+                    <div class="menu_side_area">
+                      <!-- <a href="contact.html" class="btn-main bg-color-2">Schedule Now</a> -->
+                      <span id="menu-btn"></span>
+                    </div>
+                  </div>
                 </div>
-
-                <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
-                    <div class="widget">
-                        <h5 class="id-color-1">Contact us</h5>
-
-                        <div class="spacer-20"></div>
-
-                        <div class="fw-bold text-white">
-                            <i class="icofont-location-pin me-2 id-color-1"></i>
-                            Office Location
-                        </div>
-                        Dammam, Eastern province, Saudi arabia
-                        ware house location : Khalidiya ,Behind Railway gate Road, Warehouse No 6 & 7
-
-                        <div class="spacer-20"></div>
-
-                        <div class="fw-bold text-white"><i class="icofont-envelope me-2 id-color-1"></i>
-                            Send a Message
-                        </div>
-                        sales@triple-arrows.me
-                    </div>
-
-                    <div class="jarallax mb0 wow fadeInUp" data-wow-delay=".2s"><i
-                            class="icofont-phone-circle id-color-1"></i> +966 583764696
-                    </div>
-
-
-
-                    <div class="social-icons mb-sm-30">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-discord"></i></a>
-                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                    </div>
-
-
-                </div>
+              </div>
             </div>
+          </div>
+        </div>
+      </header>
+      <!-- header close -->
+      <!-- content begin -->
+      <div class="no-bottom no-top" id="content">
+        <div id="top"></div>
+
+        <section
+          class="section-dark text-light no-top no-bottom position-relative overflow-hidden z-1000"
+        >
+          <div class="v-center">
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div
+                    class="swiper-inner"
+                    data-bgimage="url(images/slider/1.jpg)"
+                  >
+                    <div class="sw-caption">
+                      <div class="container-fluid">
+                        <div class="row gx-5 align-items-center">
+                          <div class="spacer-double"></div>
+
+                          <div class="col-lg-6 offset-lg-2 text-left">
+                            <div class="spacer-single"></div>
+                            <div class="sw-text-wrapper">
+                              <h2 class="slider-title mb-3">
+                                Triple Arrows: Your Trusted Partner for Building
+                                materials, Tools, and PPE
+                              </h2>
+                              <h3 class="slider-teaser mb-3">
+                                Welcome to Triple Arrows, your premier supplier
+                                of construction materials, tools, PPE, and
+                                safety materials. We specialize in wholesale and
+                                general trading divisions, offering a wide range
+                                of products to meet all your construction needs.
+                              </h3>
+                              <div class="spacer-10"></div>
+                            </div>
+                          </div>
+
+                          <div class="spacer-single"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div class="sw-overlay"></div> -->
+                  </div>
+                </div>
+                <!-- Slides -->
+
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div
+                    class="swiper-inner"
+                    data-bgimage="url(images/slider/Frame104.png)"
+                  >
+                    <div class="sw-caption">
+                      <div class="container-fluid">
+                        <div class="row gx-5 align-items-center">
+                          <div class="spacer-double"></div>
+
+                          <div class="col-lg-6 offset-lg-2 text-left">
+                            <div class="spacer-single"></div>
+                            <div class="sw-text-wrapper">
+                              <h2 class="slider-title mb-3">
+                                Triple Arrows: Your Trusted Partner for Building
+                                materials, Tools, and PPE
+                              </h2>
+                              <h3 class="slider-teaser mb-3">
+                                Welcome to Triple Arrows, your premier supplier
+                                of construction materials, tools, PPE, and
+                                safety materials. We specialize in wholesale and
+                                general trading divisions, offering a wide range
+                                of products to meet all your construction needs.
+                              </h3>
+                              <div class="spacer-10"></div>
+                            </div>
+                          </div>
+
+                          <div class="spacer-single"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div class="sw-overlay s2"></div> -->
+                  </div>
+                </div>
+                <!-- Slides -->
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="pt50">
+          <div class="container">
+            <div class="spacer-double"></div>
+            <div class="spacer-double"></div>
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <img
+                  src="images/about-bg.png"
+                  class="img-fluid wow scaleIn"
+                  alt=""
+                />
+              </div>
+              <div class="col-lg-6">
+                <h2 class="wow fadeInUp">
+                  Building a Strong Foundation: The Core of Every Construction
+                  Project
+                </h2>
+                <p class="wow fadeInUp">
+                  In the dynamic world of construction, a strong foundation
+                  isn't merely a structural requirement; it's the very bedrock
+                  upon which dreams are built. Triple Arrows understands the
+                  pivotal role that dependable materials, efficient tools, and
+                  safety equipment play in each project. Whether you are an
+                  experienced contractor shaping cityscapes or an enthusiastic
+                  DIYer crafting your personal sanctuary, our comprehensive
+                  solutions are tailored to meet your specific needs
+                </p>
+                <div class="spacer-10"></div>
+                <a class="btn-main wow fadeInUp" href="about.html">View more</a>
+              </div>
+            </div>
+
+            <div class="spacer-double"></div>
+            <div class="spacer-double"></div>
+          </div>
+        </section>
+
+        <section class="bg-color text-light">
+          <div class="spacer-double"></div>
+
+          <div class="container">
+            <div class="row g-4">
+              <div class="row">
+                <div class="col-lg-12 text-left">
+                  <a href="services.html" class=""  >
+                    <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                        <ins> Our Expertise</ins>
+                    </h2>
+                  </a>
+                  <hr class="hr s2" />
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-6 wow fadeInRight"
+                data-wow-delay=".0s"
+              >
+                <div class="overflow-hidden">
+                  <div
+                    class="d-flex text-wrap flex-column justify-content-between"
+                  >
+                    <div class="bg-color-2 text-light">
+                      <h4>Explore a Vast Selection of Building Materials</h4>
+                      <div class="spacer-30"></div>
+                      <p class="no-bottom">
+                        In the construction industry, having the right tools and
+                        equipment is crucial to ensuring safety and efficiency
+                        on job sites. Triple Arrows is committed to providing a
+                        wide range of construction tools and safety equipment to
+                        fulfill all your project requirements.
+                      </p>
+                      <div class="spacer-30"></div>
+                    </div>
+
+                    <div class="relative">
+                      <img
+                        src="images/services/services1.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-6 wow fadeInRight"
+                data-wow-delay=".2s"
+              >
+                <div class="overflow-hidden">
+                  <div
+                    class="d-flex text-wrap flex-column justify-content-between"
+                  >
+                    <div class="bg-color-2 text-light">
+                      <h4>Personal Protective Equipment (PPE)</h4>
+                      <div class="spacer-30"></div>
+                      <p class="no-bottom">
+                        Safety remains our top priority. Triple Arrows offers
+                        high-quality PPE, including hard hats, gloves, safety
+                        glasses, and respiratory protection. We understand the
+                        critical nature of protecting your workforce, and our
+                        products adhere to industry standards.
+                      </p>
+                      <div class="spacer-30"></div>
+                    </div>
+
+                    <div class="relative">
+                      <img
+                        src="images/services/services2.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-6 wow fadeInRight"
+                data-wow-delay=".4s"
+              >
+                <div class="overflow-hidden">
+                  <div
+                    class="d-flex text-wrap flex-column justify-content-between"
+                  >
+                    <div class="bg-color-2 text-light">
+                      <h4>Construction Tools and Equipment</h4>
+                      <div class="spacer-30"></div>
+                      <p class="no-bottom">
+                        From power tools to heavy machinery, we provide
+                        top-of-the-line construction equipment. Whether you're a
+                        contractor, builder, or DIY enthusiast, our tools are
+                        designed to improve efficiency and productivity
+                        on the job site.
+                      </p>
+                      <div class="spacer-30"></div>
+                    </div>
+                    <div class="spacer-30"></div>
+                    <div class="relative">
+                      <img
+                        src="images/services/services3.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-6 wow fadeInRight"
+                data-wow-delay=".6s"
+              >
+                <div class="overflow-hidden">
+                  <div
+                    class="d-flex text-wrap flex-column justify-content-between"
+                  >
+                    <div class="bg-color-2 text-light">
+                      <h4>Wholesale and General Trading Divisions</h4>
+                      <div class="spacer-30"></div>
+                      <p class="no-bottom">
+                        For all your building material needs, from major
+                        projects to home improvements, our wholesale and general
+                        trading divisions have you covered. Competitive pricing
+                        and flexible delivery options ensure a convenient
+                        shopping experience.
+                      </p>
+                      <div class="spacer-30"></div>
+                    </div>
+                    <div class="spacer-30"></div>
+
+                    <div class="relative">
+                      <img
+                        src="images/services/services4.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="spacer-double"></div>
+        </section>
+
+        <section
+          class=""
+          style="background-image: url(images/ser.jpg); background-size: cover"
+        >
+          <div class="container">
+            <div class="row g-4">
+              <div class="row">
+                <div class="col-lg-12 text-left">
+                  <h2>industries served</h2>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-6 wow fadeInRight"
+                data-wow-delay="0s"
+              >
+                <div class="img-with-cap">
+                  <h4 class="d-title">Manufacturing</h4>
+                  <div class="d-overlay"></div>
+                  <img
+                    src="images/industries/s1.png"
+                    class="img-fullwidth rounded-1"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-6 wow fadeInRight"
+                data-wow-delay=".1s"
+              >
+                <div class="img-with-cap">
+                  <h4 class="d-title">Construction</h4>
+                  <div class="d-overlay"></div>
+                  <img
+                    src="images/industries/Group47.png"
+                    class="img-fullwidth rounded-1"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-6 wow fadeInRight"
+                data-wow-delay=".2s"
+              >
+                <div class="img-with-cap">
+                  <h4 class="d-title">Automotive Industry</h4>
+                  <div class="d-overlay"></div>
+                  <img
+                    src="images/industries/Rectangle23.png"
+                    class="img-fullwidth rounded-1"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-6 wow fadeInRight"
+                data-wow-delay=".3s"
+              >
+                <div class="img-with-cap">
+                  <h4 class="d-title">Oil & Gas</h4>
+                  <div class="d-overlay"></div>
+                  <img
+                    src="images/industries/Rectangle24.png"
+                    class="img-fullwidth rounded-1"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-6 wow fadeInRight"
+                data-wow-delay=".4s"
+              >
+                <div class="img-with-cap">
+                  <h4 class="d-title">Ware Housing</h4>
+                  <div class="d-overlay"></div>
+                  <img
+                    src="images/industries/Rectangle25.png"
+                    class="img-fullwidth rounded-1"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-6 wow fadeInRight"
+                data-wow-delay=".5s"
+              >
+                <div class="img-with-cap">
+                  <h4 class="d-title">Petro Chemicals</h4>
+                  <div class="d-overlay"></div>
+                  <img
+                    src="images/industries/Rectangle26.png"
+                    class="img-fullwidth rounded-1"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-6 wow fadeInRight"
+                data-wow-delay=".6s"
+              >
+                <div class="img-with-cap">
+                  <h4 class="d-title">Transport & Logistics</h4>
+                  <div class="d-overlay"></div>
+                  <img
+                    src="images/industries/Rectangle27.png"
+                    class="img-fullwidth rounded-1"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-6 wow fadeInRight"
+                data-wow-delay=".7s"
+              >
+                <div class="img-with-cap">
+                  <h4 class="d-title">Hospitality</h4>
+                  <div class="d-overlay"></div>
+                  <img
+                    src="images/industries/Rectangle28.png"
+                    class="img-fullwidth rounded-1"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-6 wow fadeInRight"
+                data-wow-delay=".8s"
+              >
+                <div class="img-with-cap">
+                  <h4 class="d-title">Aviation</h4>
+                  <div class="d-overlay"></div>
+                  <img
+                    src="images/industries/Rectangle29.png"
+                    class="img-fullwidth rounded-1"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-6 wow fadeInRight"
+                data-wow-delay=".9s"
+              >
+                <div class="img-with-cap">
+                  <h4 class="d-title">Field Service</h4>
+                  <div class="d-overlay"></div>
+                  <img
+                    src="images/industries/Rectangle30.png"
+                    class="img-fullwidth rounded-1"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-6 wow fadeInRight"
+                data-wow-delay=".9s"
+              >
+                <div class="img-with-cap">
+                  <h4 class="d-title">Mining</h4>
+                  <div class="d-overlay"></div>
+                  <img
+                    src="images/industries/Rectangle31.png"
+                    class="img-fullwidth rounded-1"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-6 wow fadeInRight"
+                data-wow-delay=".9s"
+              >
+                <div class="img-with-cap">
+                  <h4 class="d-title">Corporate & Executive</h4>
+                  <div class="d-overlay"></div>
+                  <img
+                    src="images/industries/Rectangle32.png"
+                    class="img-fullwidth rounded-1"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="no-bottom no-top">
+          <div class="">
+            <div class="row">
+              <div class="col-lg-12">
+                <div
+                  class="padding60 sm-padding40 overflow-hidden position-relative jarallax text-light"
+                >
+                  <img
+                    src="images/Rectangle 33.jpg"
+                    class="jarallax-img"
+                    alt=""
+                  />
+                  <div class="container">
+                    <div
+                      class="row align-items-center g-4 gx-5 relative z-index-1000"
+                    >
+                      <div class="col-lg-8">
+                        <div class="spacer-40"></div>
+                        <h2 class="mb20 wow fadeInUp" data-wow-delay=".2s">
+                          Together Towards Excellence: Your Trusted
+                          Construction Partner
+                        </h2>
+                        <a class="btn-main" href="contact.html">Enquire now</a>
+                        <div class="spacer-40"></div>
+                      </div>
+                      <div class="col-lg-4 text-center">
+                        <img
+                          src="images/Logo-04 1.png"
+                          class="img-fluid rounded-10px wow scaleIn"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- content close -->
+
+      <!-- ` begin -->
+      <footer class="bg-color text-light">
+        <div class="container">
+          <div class="row gx-5">
+            <div class="col-lg-8 col-sm-6">
+              <h5 class="id-color-1">Our Expertise</h5>
+              <div class="spacer-20"></div>
+              <p>Explore a Vast Selection of Building Materials</p>
+              <p>Personal Protective Equipment (PPE)</p>
+              <p>Construction Tools and Equipment</p>
+              <p>Wholesale and General Trading Divisions</p>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
+              <div class="widget">
+                <h5 class="id-color-1">Contact us</h5>
+
+                <div class="spacer-20"></div>
+
+                <div class="fw-bold text-white">
+                  <i class="icofont-location-pin me-2 id-color-1"></i>
+                  Office Location
+                </div>
+                Dammam, Eastern province, Saudi arabia ware house location :
+                Khalidiya ,Behind Railway gate Road, Warehouse No 6 & 7
+
+                <div class="spacer-20"></div>
+
+                <div class="fw-bold text-white">
+                  <i class="icofont-envelope me-2 id-color-1"></i>
+                  Send a Message
+                </div>
+                sales@triple-arrows.me
+              </div>
+
+              <div class="jarallax mb0 wow fadeInUp" data-wow-delay=".2s">
+                <i class="icofont-phone-circle id-color-1"></i> +966 583764696
+              </div>
+
+              <div class="social-icons mb-sm-30">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="subfooter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="de-flex align-items-center justify-content-center">
-                            <div class="de-flex-col text-center">
-                                © 2023 Tripplearrows | Site by ZEROTHIRTYSEVENCENTIGRADE
-                            </div>
-
-                        </div>
-                    </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="de-flex align-items-center justify-content-center">
+                  <div class="de-flex-col text-center">
+                    © 2024 Tripplearrows | Site by ZEROTHIRTYSEVENCENTIGRADE
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </footer>
-    <!-- footer close -->
+      </footer>
+      <!-- footer close -->
     </div>
-
-
 
     <!-- Javascript Files
     ================================================== -->
@@ -609,7 +720,5 @@
     <script src="js/swiper.js"></script>
     <script src="js/custom-marquee.js"></script>
     <script src="js/custom-swiper-1.js"></script>
-
-</body>
-
+  </body>
 </html>
